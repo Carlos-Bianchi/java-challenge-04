@@ -8,7 +8,7 @@ This page summarizes how the backend is built and configured at runtime.
 - `pom.xml:32-84` — runtime and test dependencies including Quarkus REST, Jackson, Hibernate ORM, PostgreSQL, validator, OpenAPI, BCrypt, JUnit 5, Rest Assured, Mockito, and AssertJ.
 - `pom.xml:86-140` — Quarkus Maven plugin, compiler plugin, Surefire, and Failsafe setup.
 - `src/main/resources/application.properties:1-20` — application name, Render-compatible HTTP host/port, datasource, CORS, and OpenAPI path.
-- `Dockerfile:1-16` — multi-stage Java 17 container build for Quarkus fast-jar packaging.
+- `Dockerfile:1-13` — multi-stage Java 17 container build for Quarkus fast-jar packaging using a Maven builder image, without relying on a checked-in Maven wrapper directory.
 - `render.yaml:1-17` — Render Blueprint for a Docker web service with env var placeholders.
 - `.dockerignore:1-14` — Docker build-context exclusions for local and documentation artifacts.
 

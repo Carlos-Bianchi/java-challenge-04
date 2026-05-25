@@ -7,3 +7,4 @@
 - 2026-05-24 — Updated `wiki/wiki/overview.md`: added a submission-artifacts module entry linking to the repo-aligned deliverables page.
 - 2026-05-24 — Created `wiki/wiki/pages/submission-deliverables.md`: tracked `README.md`, `documentacao-final-backend-alinhada.pdf`, the GitHub repository link, and the backend-only submission constraints.
 - 2026-05-24 — Prepared Docker-based Render deployment: added `Dockerfile`, `.dockerignore`, and `render.yaml`; updated `application.properties` for Render host/port; documented the deployment tutorial in `README.md`; refreshed wiki build/config and overview pages.
+- 2026-05-25 — Fixed the Render Docker build path: removed the hidden `.mvn/` dependency from `Dockerfile` and switched the build stage to a Maven base image so Render can build from the GitHub checkout alone.
