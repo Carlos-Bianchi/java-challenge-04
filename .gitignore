@@ -1,0 +1,27 @@
+target/
+
+# Maven wrapper (downloaded distribution - only keep scripts)
+.mvn/
+
+# Quarkus local/dev files
+.quarkus/
+*.log
+*.tmp
+hs_err_pid*
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment overrides
+.env
+.env.*
+!.env.example
