@@ -2,6 +2,8 @@
 
 Backend API built with Quarkus for the Turma do Bem challenge. The project exposes REST endpoints for authentication, user management, match recommendations, appointments, communications, service records, specialties, and dashboard summaries.
 
+GitHub repository: https://github.com/Carlos-Bianchi/java-challenge-04
+
 ## Stack
 
 - Java 17

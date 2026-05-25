@@ -25,7 +25,10 @@ Environment-backed properties currently defined:
 
 - `quarkus.hibernate-orm.database.generation=none` in `src/main/resources/application.properties:9` means the database schema must already exist.
 - OpenAPI is exposed at `src/main/resources/application.properties:17` on `/q/openapi`.
+- Runtime commands are executed from the repository root; this workspace is the backend submission itself, not a monorepo with nested `backend/` and `frontend/` directories.
+- The repo does not include `docker-compose*.yml` or `.sql` setup files, so local execution depends on an existing reachable PostgreSQL instance rather than checked-in Compose/schema assets.
 
 ## Backlinks
 
 - [Overview](../overview.md)
+- [Submission Deliverables](./submission-deliverables.md)
