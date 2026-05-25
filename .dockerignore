@@ -1,0 +1,14 @@
+target/
+.git/
+.idea/
+.vscode/
+.quarkus/
+*.log
+*.tmp
+hs_err_pid*
+.env
+.env.*
+wiki/
+docs/
+documentacao-final-backend-alinhada.pdf
+tarefa.md

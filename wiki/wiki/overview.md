@@ -4,7 +4,7 @@ This repository is a Quarkus-based Java 17 backend for the Turma do Bem challeng
 
 ## Modules
 
-- **Build and runtime config** — Maven and Quarkus configuration live in [`pom.xml`](../../pom.xml) and [`src/main/resources/application.properties`](../../src/main/resources/application.properties). See [Build and Configuration](./pages/build-and-configuration.md).
+- **Build and runtime config** — Maven and Quarkus configuration live in [`pom.xml`](../../pom.xml) and [`src/main/resources/application.properties`](../../src/main/resources/application.properties), with container deployment assets in [`Dockerfile`](../../Dockerfile), [`render.yaml`](../../render.yaml), and [Build and Configuration](./pages/build-and-configuration.md).
 - **Submission artifacts** — the repository includes a linked `README.md`, the original final PDF, and the repo-aligned `documentacao-final-backend-alinhada.pdf`. See [Submission Deliverables](./pages/submission-deliverables.md).
 - **HTTP API layer** — REST endpoints are implemented under `src/main/java/br/com/turmadobem/backend/resource/`. See [API Resources](./pages/api-resources.md).
 - **Domain and persistence layer** — entities, repositories, DTOs, and services live under `model/`, `repository/`, `dto/`, and `service/`. See [Domain Model and Services](./pages/domain-model-and-services.md).
